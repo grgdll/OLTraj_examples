@@ -24,18 +24,19 @@ This should create on your computer the following directory structure:
 ``├── environment.yml ``          <br/>
 ``└── README.md  ``               <br/>
 
+The file `environment.yml` contains all the dependencies needed to run these examples. To install the same `conda` environment, type this command: `conda env create --name OLTraj_examples -f environment.yml`. When the environment is intalled, activate it with `conda activate OLTraj_examples`.
 
 
 Then you will need to download directory the files below and save them in the `./1_Plot_traj/Input` directory:
 
-* 20171021_oltraj_uv_global.nc  
-* 20171024_oltraj_uv_global.nc  
-* 20171028_oltraj_uv_global.nc
-* 20171022_oltraj_uv_global.nc
-* 20171026_oltraj_uv_global.nc
-* 20171030_oltraj_uv_global.nc 
+* 20171021_oltraj_030_uv_global.nc  
+* 20171024_oltraj_030_uv_global.nc  
+* 20171028_oltraj_030_uv_global.nc
+* 20171022_oltraj_030_uv_global.nc
+* 20171026_oltraj_030_uv_global.nc
+* 20171030_oltraj_030_uv_global.nc 
 
-Finally, to run the jupyter notebook tyoe this command from the top directory of the cloned repository (i.e., OLTraj_examples-main): `jupyter notebook 1_Plot_traj/Source/OLTraj_eg_1.ipynb`
+Finally, to run the jupyter notebook type this command from the top directory of the cloned repository (i.e., OLTraj_examples-main): `jupyter notebook 1_Plot_traj/Source/OLTraj_eg_1.ipynb`
 
 
 
