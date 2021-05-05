@@ -6,9 +6,10 @@ You can also download data from CEDA without registering, if you use the http se
 ## Example 1: Extracting and plotting Lagrangian trajectories over cruise track
 The first example demonstrates how to extract and plot Lagrangian trajectories along a cruise track.
 To make this example work you will need the following OLTraj files:
+
 20171021_oltraj_uv_global.nc  
 20171024_oltraj_uv_global.nc  
 20171028_oltraj_uv_global.nc
-20171022_oltraj_uv_global.nc  
-20171026_oltraj_uv_global.nc  
+20171022_oltraj_uv_global.nc
+20171026_oltraj_uv_global.nc
 20171030_oltraj_uv_global.nc 
