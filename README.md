@@ -1,16 +1,9 @@
 # OLTraj examples
-These are two practical examples to help new user understand how to use the OLTraj product.
+These are two practical examples written ad jupyter notebooks to help new users understand how to use the OLTraj product.
 
-To work with these examples you first need to download the data from here https://data.ceda.ac.uk/neodc/oltraj/data/v1.0
+To work with these examples you first need to clone this repository (e.g., click here https://github.com/grgdll/OLTraj_examples/archive/refs/heads/main.zip).
 
-If you want to use the FTP service, you need to register to CEDA. You can register here: https://services.ceda.ac.uk/cedasite/register/info/
-
-## Example 1: Extracting and plotting Lagrangian trajectories over cruise track
-The first example demonstrates how to extract and plot Lagrangian trajectories along a cruise track.
-
-To run this example on a jupyter notebook, first you will need to clone the GitHub repository onto your computer.
-
-This should create on your computer the following directory structure:
+Unzipping this file should create on your computer the following directory structure:
 
 ``OLTraj_examples-main/``              <br/>
 ``├── 1_Plot_traj``               <br/>
@@ -25,17 +18,22 @@ This should create on your computer the following directory structure:
 ``├── environment.yml ``          <br/>
 ``└── README.md  ``               <br/>
 
-The file `environment.yml` contains all the dependencies needed to run these examples. To install the same `conda` environment, type this command: `conda env create --name OLTraj_examples -f environment.yml`. When the environment is intalled, activate it with `conda activate OLTraj_examples`.
 
+You then need to download the data relative to each example (see which files exactly below) from here https://data.ceda.ac.uk/neodc/oltraj/data/v1.0
 
-Then you will need to download directory the files below and save them in the `./1_Plot_traj/Input` directory:
+If you prefer using the FTP service, you will need to register as a CEDA user: https://services.ceda.ac.uk/cedasite/register/info/
 
-* 20171021_oltraj_030_uv_global.nc  
-* 20171024_oltraj_030_uv_global.nc  
-* 20171028_oltraj_030_uv_global.nc
-* 20171022_oltraj_030_uv_global.nc
-* 20171026_oltraj_030_uv_global.nc
-* 20171030_oltraj_030_uv_global.nc 
+## Example 1: Extracting and plotting Lagrangian trajectories over cruise track
+The first example demonstrates how to extract and plot Lagrangian trajectories along a cruise track.
+
+To run this example you will need to download the files below and save them in the directory `./1_Plot_traj/Input`:
+
+* 20171021_oltraj_uv_global.nc  
+* 20171024_oltraj_uv_global.nc  
+* 20171028_oltraj_uv_global.nc
+* 20171022_oltraj_uv_global.nc
+* 20171026_oltraj_uv_global.nc
+* 20171030_oltraj_uv_global.nc 
 
 Finally, to run the jupyter notebook type this command from the top directory of the cloned repository (i.e., OLTraj_examples-main): `jupyter notebook 1_Plot_traj/Source/OLTraj_eg_1.ipynb`
 
