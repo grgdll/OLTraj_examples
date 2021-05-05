@@ -11,18 +11,18 @@ To run this example on a jupyter notebook, first you will need to clone the GitH
 
 This should create on your computer the following directory structure:
 
-OLTraj_examples/
-├── 1_Plot_traj
-│   ├── Input
-│   │   └── amt27_track.csv
-│   └── Source
-│       ├── OLTraj_eg_1.ipynb
-├── 2_Plot_traj
-│   ├── Input
-│   └── Source
-│       └── OLTraj_eg_2.ipynb
-├── environment.yml
-└── README.md
+OLTraj_examples/              \\
+├── 1_Plot_traj               \\
+│   ├── Input                 \\
+│   │   └── amt27_track.csv   \\
+│   └── Source                \\
+│       ├── OLTraj_eg_1.ipynb \\
+├── 2_Plot_traj               \\
+│   ├── Input                 \\
+│   └── Source                \\
+│       └── OLTraj_eg_2.ipynb \\
+├── environment.yml           \\
+└── README.md                 \\
 
 
 
