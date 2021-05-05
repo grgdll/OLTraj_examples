@@ -11,7 +11,7 @@ To run this example on a jupyter notebook, first you will need to clone the GitH
 
 This should create on your computer the following directory structure:
 
-``OLTraj_examples/``              <br/>
+``OLTraj_examples-main/``              <br/>
 ``├── 1_Plot_traj``               <br/>
 ``│   ├── Input          ``       <br/>
 ``│   │   └── amt27_track.csv``   <br/>
@@ -26,7 +26,7 @@ This should create on your computer the following directory structure:
 
 
 
-Then you will need to download and save in the `./Input` directory the following OLTraj files:
+Then you will need to download directory the files below and save them in the `./1_Plot_traj/Input` directory:
 
 * 20171021_oltraj_uv_global.nc  
 * 20171024_oltraj_uv_global.nc  
