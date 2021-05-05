@@ -9,7 +9,7 @@ Unzipping this file should create on your computer the following directory struc
 ``├── 1_Plot_traj``               <br/>
 ``│   ├── Input          ``       <br/>
 ``│   │   └── amt27_track.csv``   <br/>
-``│   └── Source ``               <br/>
+``│   └── Source ``               <br/> 
 ``│       └── OLTraj_eg_1.ipynb ``<br/>
 ``├── 2_Plot_traj ``              <br/>
 ``│   ├── Input ``                <br/>
