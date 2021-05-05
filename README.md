@@ -26,7 +26,7 @@ This should create on your computer the following directory structure:
 
 
 
-Then will need to download and same in the `./Input` directory the following OLTraj files:
+Then you will need to download and save in the `./Input` directory the following OLTraj files:
 
 * 20171021_oltraj_uv_global.nc  
 * 20171024_oltraj_uv_global.nc  
@@ -35,7 +35,7 @@ Then will need to download and same in the `./Input` directory the following OLT
 * 20171026_oltraj_uv_global.nc
 * 20171030_oltraj_uv_global.nc 
 
-Finally, you will need to start the jupyter notebook with this command (issued from the top directory of the cloned repository): `jupyter notebook OLTraj_examples-main/1_`
+Finally, to run the jupyter notebook tyoe this command from the top directory of the cloned repository (i.e., OLTraj_examples-main): `jupyter notebook 1_Plot_traj/Source/OLTraj_eg_1.ipynb`
 
 
 
