@@ -10,11 +10,11 @@ Unzipping this file should create on your computer the following directory struc
 ``│   ├── Input          ``       <br/>
 ``│   │   └── amt27_track.csv``   <br/>
 ``│   └── Source             ``   <br/>
-``│       ├── OLTraj_eg_1.ipynb`` <br/>
+``│       ├── OLTraj_eg_1.ipynb`` <br/>
 ``├── 2_Plot_traj ``              <br/>
 ``│   ├── Input ``                <br/>
 ``│   └── Source ``               <br/>
-``│       └── OLTraj_eg_2.ipynb ``<br/>
+``│       └── OLTraj_eg_2.ipynb ``<br/>
 ``├── environment.yml ``          <br/>
 ``└── README.md  ``               <br/>
 
