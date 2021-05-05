@@ -7,7 +7,26 @@ You can also download data from CEDA without registering, if you use the http se
 ## Example 1: Extracting and plotting Lagrangian trajectories over cruise track
 The first example demonstrates how to extract and plot Lagrangian trajectories along a cruise track.
 
-To make this example work you will need the following OLTraj files:
+To run this example on a jupyter notebook, first you will need to clone the GitHub repository onto your computer.
+
+This should create on your computer the following directory structure:
+
+OLTraj_examples/
+├── 1_Plot_traj
+│   ├── Input
+│   │   └── amt27_track.csv
+│   └── Source
+│       ├── OLTraj_eg_1.ipynb
+├── 2_Plot_traj
+│   ├── Input
+│   └── Source
+│       └── OLTraj_eg_2.ipynb
+├── environment.yml
+└── README.md
+
+
+
+Then will need to download and same in the `./Input` directory the following OLTraj files:
 
 * 20171021_oltraj_uv_global.nc  
 * 20171024_oltraj_uv_global.nc  
@@ -16,8 +35,7 @@ To make this example work you will need the following OLTraj files:
 * 20171026_oltraj_uv_global.nc
 * 20171030_oltraj_uv_global.nc 
 
-Then you will need to clone the GitHub repository onto your computer. You can do that using the following command: `git@github.com:grgdll/OLTraj_examples.git>`
-
+Finally, you will need to start the jupyter notebook with this command (issued from the top directory of the cloned repository): `jupyter notebook OLTraj_examples-main/1_`
 
 
 
