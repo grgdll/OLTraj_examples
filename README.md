@@ -4,7 +4,7 @@ These are two practical examples written ad jupyter notebooks to help new users 
 To work with these examples you first need to clone this repository (e.g., click here https://github.com/grgdll/OLTraj_examples/archive/refs/heads/main.zip).
 
 Unzipping this file should create on your computer the following directory structure:
-
+<pre>
 ``OLTraj_examples-main/``              <br/>
 ``├── 1_Plot_traj``               <br/>
 ``│   ├── Input          ``       <br/>
@@ -17,7 +17,7 @@ Unzipping this file should create on your computer the following directory struc
 ``│       └── OLTraj_eg_2.ipynb ``<br/>
 ``├── environment.yml ``          <br/>
 ``└── README.md  ``               <br/>
-
+</pre>
 
 You then need to download the data relative to each example (see which files exactly below) from here https://data.ceda.ac.uk/neodc/oltraj/data/v1.0
 
