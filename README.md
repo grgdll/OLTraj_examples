@@ -5,18 +5,18 @@ To work with these examples you first need to clone this repository (e.g., click
 
 Unzipping this file should create on your computer the following directory structure:
 <pre>
-``OLTraj_examples-main/``              
-``├── 1_Plot_traj``               
-``│   ├── Input          ``      
-``│   │   └── amt27_track.csv``   
-``│   └── Source ``              
-``│       └── OLTraj_eg_1.ipynb ``
-``├── 2_Plot_traj ``              
-``│   ├── Input ``                
-``│   └── Source ``               
-``│       └── OLTraj_eg_2.ipynb ``
-``├── environment.yml ``          
-``└── README.md  ``               
+OLTraj_examples-main/              
+├── 1_Plot_traj             
+│   ├── Input               
+│   │   └── amt27_track.csv   
+│   └── Source            
+│       └── OLTraj_eg_1.ipynb 
+├── 2_Plot_traj              
+│   ├── Input                 
+│   └── Source             
+│       └── OLTraj_eg_2.ipynb
+├── environment.yml          
+└── README.md                
 </pre>
 
 You then need to download the data relative to each example (see which files exactly below) from here https://data.ceda.ac.uk/neodc/oltraj/data/v1.0
