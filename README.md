@@ -35,7 +35,9 @@ To run this example you will need to download the files below and save them in t
 * 20171026_oltraj_030_uv_global.nc
 * 20171030_oltraj_030_uv_global.nc 
 
-Finally, to run the jupyter notebook type this command from the top directory of the cloned repository (i.e., OLTraj_examples-main): `jupyter notebook 1_Plot_traj/Source/OLTraj_eg_1.ipynb`
+Finally, to start the jupyter notebook type this command from the top directory of the cloned repository (i.e., OLTraj_examples-main): `jupyter notebook 1_Plot_traj/Source/OLTraj_eg_1.ipynb`.
+You will then be able to run the script and see the plotted Lagrangian trajectories along the cruise track.
 
+We have kept the length of the cruise short to minimise the number of OLTraj files you need to download. However, you can also generate your own cruise track file, download the relative OLTraj files, and plot all the Lagrangian trajectories that you want.
 
 
