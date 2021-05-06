@@ -19,7 +19,7 @@ OLTraj_examples-main/
 └── README.md                
 </pre>
 
-The file `environment.yml` allows you to recreate the `conda` environment needed for the notebooks to work. To create this environment use the command `conda env create -f environment.yml`. The newly create conda environment needs to be activated using `conda activate OLTraj_env`.
+The file `environment.yml` allows you to recreate the `conda` environment needed for the notebooks to work. To create this environment use the command `conda env create -f environment.yml`. Then the newly created conda environment needs to be activated using `conda activate OLTraj_env`.
 
 You then need to download the data relative to each example (see which files exactly below) from here https://data.ceda.ac.uk/neodc/oltraj/data/v1.0.
 
