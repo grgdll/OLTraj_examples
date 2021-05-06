@@ -1,5 +1,5 @@
 # OLTraj examples
-These are two practical examples written ad jupyter notebooks to help new users understand how to use the OLTraj product.
+These are two practical examples written as jupyter notebooks to help new users familiarise with the OLTraj product.
 
 To work with these examples you first need to clone this repository (e.g., click here https://github.com/grgdll/OLTraj_examples/archive/refs/heads/main.zip).
 
@@ -28,12 +28,12 @@ The first example demonstrates how to extract and plot Lagrangian trajectories a
 
 To run this example you will need to download the files below and save them in the directory `./1_Plot_traj/Input`:
 
-* 20171021_oltraj_uv_global.nc  
-* 20171024_oltraj_uv_global.nc  
-* 20171028_oltraj_uv_global.nc
-* 20171022_oltraj_uv_global.nc
-* 20171026_oltraj_uv_global.nc
-* 20171030_oltraj_uv_global.nc 
+* 20171021_oltraj_030_uv_global.nc  
+* 20171024_oltraj_030_uv_global.nc  
+* 20171028_oltraj_030_uv_global.nc
+* 20171022_oltraj_030_uv_global.nc
+* 20171026_oltraj_030_uv_global.nc
+* 20171030_oltraj_030_uv_global.nc 
 
 Finally, to run the jupyter notebook type this command from the top directory of the cloned repository (i.e., OLTraj_examples-main): `jupyter notebook 1_Plot_traj/Source/OLTraj_eg_1.ipynb`
 
