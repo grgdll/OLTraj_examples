@@ -19,9 +19,11 @@ OLTraj_examples-main/
 └── README.md                
 </pre>
 
-You then need to download the data relative to each example (see which files exactly below) from here https://data.ceda.ac.uk/neodc/oltraj/data/v1.0
+The file `environment.yml` allows you to recreate the `conda` environment needed for the notebooks to work. To create this environment use the command `conda env create -f environment.yml`. The newly create conda environment needs to be activated using `conda activate OLTraj_env`.
 
-If you prefer using the FTP service, you will need to register as a CEDA user: https://services.ceda.ac.uk/cedasite/register/info/
+You then need to download the data relative to each example (see which files exactly below) from here https://data.ceda.ac.uk/neodc/oltraj/data/v1.0.
+
+If you prefer using the FTP service, you will need to register as a CEDA user: https://services.ceda.ac.uk/cedasite/register/info/.
 
 ## Example 1: Extracting and plotting Lagrangian trajectories over cruise track
 The first example demonstrates how to extract and plot Lagrangian trajectories along a cruise track.
