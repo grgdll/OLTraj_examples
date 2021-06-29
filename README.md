@@ -26,6 +26,7 @@ You then need to download the data relative to each example (see which files exa
 If you prefer using the FTP service, you will need to register as a CEDA user: https://services.ceda.ac.uk/cedasite/register/info/.
 
 ## Example 1: Extracting and plotting Lagrangian trajectories along a cruise track
+Start this example by going to the directory `OLTraj_examples-main/1_Plot_traj/Source/` and starting the jupyter notebook using the command `jupyter notebook OLTraj_eg_1.ipynb`
 The first example demonstrates how to extract and plot Lagrangian trajectories along a cruise track.
 
 To run this example you will need to download the files below and save them in the directory `./1_Plot_traj/Input`:
