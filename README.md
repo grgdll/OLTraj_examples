@@ -26,10 +26,9 @@ You then need to download the data relative to each example (see which files exa
 If you prefer using the FTP service, you will need to register as a CEDA user: https://services.ceda.ac.uk/cedasite/register/info/.
 
 ## Example 1: Extracting and plotting Lagrangian trajectories along a cruise track
-The first example demonstrates how to extract and plot Lagrangian trajectories along a cruise track.
+This first example demonstrates how to extract and plot Lagrangian trajectories along a cruise track.
 
 To run this example you will need to download the files below and save them in the directory `./1_Plot_traj/Input`:
-
 * 20171021_oltraj_030_uv_global.nc  
 * 20171024_oltraj_030_uv_global.nc  
 * 20171028_oltraj_030_uv_global.nc
