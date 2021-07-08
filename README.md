@@ -26,22 +26,13 @@ The examples are made so that you do not need to download the OLTraj files onto 
 If you need to code to run faster, you may want to download the data onto your computer (careful: each file is about 850 Mb) . You can find the files here from here https://data.ceda.ac.uk/neodc/oltraj/data/v2.2.
 If you prefer using the FTP service, you will need to register as a CEDA user: https://services.ceda.ac.uk/cedasite/register/info/.
 
-## Example 1: Extracting and plotting Lagrangian trajectories along a cruise track
+## Example 1: plotting Lagrangian trajectories along a cruise track
 This example demonstrates how to extract and plot Lagrangian trajectories along a cruise track.
 
-To run this example you will need to download the files below and save them in the directory `./1_Plot_traj/Input`:
-* 20171021_oltraj_030_uv_global.nc  
-* 20171024_oltraj_030_uv_global.nc  
-* 20171028_oltraj_030_uv_global.nc
-* 20171022_oltraj_030_uv_global.nc
-* 20171026_oltraj_030_uv_global.nc
-* 20171030_oltraj_030_uv_global.nc 
-
-Finally, to start the jupyter notebook type this command from the top directory of the cloned repository (i.e., OLTraj_examples-main): `jupyter notebook 1_Plot_traj/Source/OLTraj_eg_1.ipynb`.
+Start the jupyter notebook by typing this command from the top directory of the cloned repository (i.e., OLTraj_examples-main): `jupyter notebook 1_Plot_traj/Source/OLTraj_eg_1.ipynb`.
 You will then be able to run the jupyter notebook and see the plotted Lagrangian trajectories along the cruise track.
 
-To minimise the number of OLTraj files you need to download, we have kept the length of the cruise track short. However, you can also generate your own cruise-track file, download the relative OLTraj files, and plot all the Lagrangian trajectories that you want.
-
+You can modify the time and location of the track by changing the input file `./1_Plot_traj/Input/cruise_track.csv` (it is important to maintain the same format in the file).
 
 ## Example 2: Lagrangian evolution of a chlorophyll patch
 Let us assume you have noticed in a satellite image at a given time (`t0`) a specific patch of surface water with an interesting feature in the cholorophyll-a concentration (chl). You now want to understand how the chl in this patch of water has been evolving before you sampled it and how it has evolved since you have sampled it. 
