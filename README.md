@@ -11,7 +11,7 @@ OLTraj_examples-main/
 │   │   └── cruise_track.csv   
 │   └── Source            
 │       └── OLTraj_eg_1.ipynb 
-├── Example_              
+├── Example_2              
 │   └── Source             
 │       └──_OLTraj_eg_2.ipynb
 ├── Example_3              
