@@ -35,6 +35,7 @@ If you prefer using the FTP service, you will need to register as a CEDA user: h
 In this example we show how to extract and plot Lagrangian trajectories around a fixed-point monitoring station. These trajectories should allow one to understand where the water masses sampled at the fixed-point station were coming from at the time of sampling. It also demonstrates how the direction of the water masses might change during the year.
 
 Start the jupyter notebook by typing this command from the top directory of the cloned repository (i.e., OLTraj    _examples-main): `jupyter notebook Example_1/Source/OLTraj_eg_1.ipynb`.
+Alternatively, start the binder by cliking on the icon next to the title of this example.
 
 ## Example 2: Plotting Lagrangian trajectories along a cruise track [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/grgdll/OLTraj_examples/HEAD?filepath=.%2FExample_2%2FSource%2FOLTraj_eg_2.ipynb)
 This example demonstrates how to extract and plot Lagrangian trajectories along a cruise track.
@@ -43,6 +44,7 @@ Start the jupyter notebook by typing this command from the top directory of the 
 You will then be able to run the jupyter notebook and see the plotted Lagrangian trajectories along the cruise track.
 
 You can modify the time and location of the track by changing the input file `./Example_2/Input/cruise_track.csv` (it is important to maintain the same format in the file).
+Alternatively, start the binder by cliking on the icon next to the title of this example.
 
 ## Example 3: Lagrangian evolution of a chlorophyll patch [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/grgdll/OLTraj_examples/HEAD?filepath=.%2FExample_3%2FSource%2FOLTraj_eg_3.ipynb)
 Let us assume you have noticed in a satellite image at a given time (`t0`) a specific patch of surface water with an interesting feature in the cholorophyll-a concentration (chl). You now want to understand how the chl in this patch of water has been evolving before you sampled it and how it has evolved since you have sampled it. 
@@ -54,4 +56,4 @@ However, when the ratio of the spatial to temporal scales of the processes we wa
 In our example, we will demonstrate how to follow the dynamics of chl in a water mass as the latter moves in time. 
 
 Start the jupyter notebook by typing this command from the top directory of the cloned repository (i.e., OLTraj_examples-main): `jupyter notebook Example_3/Source/OLTraj_eg_3.ipynb`.
-
+Alternatively, start the binder by cliking on the icon next to the title of this example.
