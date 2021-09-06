@@ -31,7 +31,7 @@ If you need to code to run faster, you may want to download the data onto your c
 
 If you prefer using the FTP service, you will need to register as a CEDA user: https://services.ceda.ac.uk/cedasite/register/info/.
 
-## Example 1: Plotting trajectories around a fixed-point station
+## Example 1: Plotting trajectories around a fixed-point station [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/grgdll/OLTraj_examples/blob/main/Example_1/Source/OLTraj_eg_1.ipynb/HEAD)
 In this example we show how to extract and plot Lagrangian trajectories around a fixed-point monitoring station. These trajectories should allow one to understand where the water masses sampled at the fixed-point station were coming from at the time of sampling. It also demonstrates how the direction of the water masses might change during the year.
 
 Start the jupyter notebook by typing this command from the top directory of the cloned repository (i.e., OLTraj    _examples-main): `jupyter notebook Example_1/Source/OLTraj_eg_1.ipynb`.
