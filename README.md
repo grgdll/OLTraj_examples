@@ -36,7 +36,7 @@ In this example we show how to extract and plot Lagrangian trajectories around a
 
 Start the jupyter notebook by typing this command from the top directory of the cloned repository (i.e., OLTraj    _examples-main): `jupyter notebook Example_1/Source/OLTraj_eg_1.ipynb`.
 
-## Example 2: Plotting Lagrangian trajectories along a cruise track
+## Example 2: Plotting Lagrangian trajectories along a cruise track [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/grgdll/OLTraj_examples/HEAD?filepath=.%2FExample_2%2FSource%2FOLTraj_eg_2.ipynb)
 This example demonstrates how to extract and plot Lagrangian trajectories along a cruise track.
 
 Start the jupyter notebook by typing this command from the top directory of the cloned repository (i.e., OLTraj_examples-main): `jupyter notebook Example_2/Source/OLTraj_eg_2.ipynb`.
@@ -44,7 +44,7 @@ You will then be able to run the jupyter notebook and see the plotted Lagrangian
 
 You can modify the time and location of the track by changing the input file `./Example_2/Input/cruise_track.csv` (it is important to maintain the same format in the file).
 
-## Example 3: Lagrangian evolution of a chlorophyll patch
+## Example 3: Lagrangian evolution of a chlorophyll patch [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/grgdll/OLTraj_examples/HEAD?filepath=.%2FExample_3%2FSource%2FOLTraj_eg_3.ipynb)
 Let us assume you have noticed in a satellite image at a given time (`t0`) a specific patch of surface water with an interesting feature in the cholorophyll-a concentration (chl). You now want to understand how the chl in this patch of water has been evolving before you sampled it and how it has evolved since you have sampled it. 
 
 To achive this, one may select the region sampled at time `t0` and extract from this region a time series of chl values. This is known as an "Eulerian" analysis, in which we are implicitly assuming that surface water does not move. 
