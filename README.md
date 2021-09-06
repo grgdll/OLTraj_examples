@@ -42,9 +42,9 @@ This example demonstrates how to extract and plot Lagrangian trajectories along 
 
 Start the jupyter notebook by typing this command from the top directory of the cloned repository (i.e., OLTraj_examples-main): `jupyter notebook Example_2/Source/OLTraj_eg_2.ipynb`.
 You will then be able to run the jupyter notebook and see the plotted Lagrangian trajectories along the cruise track.
+ Alternatively, start the binder by cliking on the icon next to the title of this example.
 
 You can modify the time and location of the track by changing the input file `./Example_2/Input/cruise_track.csv` (it is important to maintain the same format in the file).
-Alternatively, start the binder by cliking on the icon next to the title of this example.
 
 ## Example 3: Lagrangian evolution of a chlorophyll patch [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/grgdll/OLTraj_examples/HEAD?filepath=.%2FExample_3%2FSource%2FOLTraj_eg_3.ipynb)
 Let us assume you have noticed in a satellite image at a given time (`t0`) a specific patch of surface water with an interesting feature in the cholorophyll-a concentration (chl). You now want to understand how the chl in this patch of water has been evolving before you sampled it and how it has evolved since you have sampled it. 
