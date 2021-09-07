@@ -1,5 +1,5 @@
 # OLTraj examples
-These are two practical examples written as jupyter notebooks to help new users familiarise with the OLTraj product.
+These are practical examples written as jupyter notebooks to help new users familiarise with the OLTraj product.
 
 To work with these examples you first need to clone this repository (e.g., click here https://github.com/grgdll/OLTraj_examples/archive/refs/heads/main.zip).
 
